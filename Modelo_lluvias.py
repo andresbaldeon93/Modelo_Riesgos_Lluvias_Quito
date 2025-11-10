@@ -13,7 +13,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 
-df = pd.read_csv("Puengasí.csv", sep='|')
+df = pd.read_csv("https://github.com/andresbaldeon93/Modelo_Riesgos_Lluvias_Quito/blob/896fac806dcf8bf483a4bf98b8061095e7b08b5f/Puengas%C3%AD.csv", sep='|')
 
 # Revisar estructura básica
 print("Columnas:", df.columns.tolist())
