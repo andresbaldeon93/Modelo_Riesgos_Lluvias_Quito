@@ -12,8 +12,8 @@ from sklearn.metrics import silhouette_score
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-
-df = pd.read_csv("https://github.com/andresbaldeon93/Modelo_Riesgos_Lluvias_Quito/blob/896fac806dcf8bf483a4bf98b8061095e7b08b5f/Puengas%C3%AD.csv", sep='|')
+url="https://github.com/andresbaldeon93/Modelo_Riesgos_Lluvias_Quito/5c1516717436ed8b60b75487417e48b01f07b16d/Puengasi.csv"
+df = pd.read_csv(url, sep='|')
 
 # Revisar estructura básica
 print("Columnas:", df.columns.tolist())
